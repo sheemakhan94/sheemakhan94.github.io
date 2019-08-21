@@ -45,7 +45,7 @@ h2 {
   height: 300px;
 }
 
-.projects-title {
+.banner {
   border: 2px solid #ed79bf;
   box-shadow: 0 0 10px #ed79bf;
   -webkit-box-shadow: 0 0 10px #ed79bf;
@@ -57,6 +57,55 @@ h2 {
   color: white;
   text-shadow: 0 0 10px #ed79bf;
   background-color: #ffbde5;
+}
+
+.headshot {
+  height: 500px;
+  width: 400px;
+  border-radius: 200px;
+  border: 2px solid #ed79bf;
+}
+
+.about {
+  height: 100vh;
+}
+
+/* .about-main{
+  display: flex;
+  flex-direction: row;
+} */
+
+.photo {
+  /* display: inline-block; */
+  float: left;
+  margin: 5px;
+  width: calc(50% - 10px);
+}
+
+.contact {
+  /* display: inline-block; */
+  float: right;
+  margin: 5px;
+  width: calc(50% - 10px);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+i {
+  font-size: 50px;
+  text-shadow: 0 0 10px #ed79bf;
+  letter-spacing: 40px;
+  color: white;
+  padding-top: 40px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-one {
@@ -88,6 +137,21 @@ h4 {
   font-size: 40px;
   color: white;
   text-shadow: 0 0 10px #ed79bf;
+}
+
+h5 {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 10px #ed79bf;
+}
+
+h6 {
+  font-size: 20px;
+  color: #ed79bf;
+}
+
+p {
+  color: #ed79bf;
 }
 
 .project-two {
