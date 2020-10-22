@@ -1,0 +1,105 @@
+body {
+  text-decoration: none;
+  background-color: #f7c6cc;
+  color: #f04d60;
+  margin: 0px;
+}
+
+
+.nav {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  background-color: #f04d60;
+  color: #f7c6cc;
+  width: 100vw;
+  margin-top: 0;
+}
+
+.menu {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  color: #f04d60;
+  text-shadow: 0 0 10px #f77786;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.link {
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: #f7c6cc;
+
+}
+
+.link:hover {
+  border: 2px solid #f7c6cc;
+  transition-duration: 2s;
+}
+
+
+.contact-title {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-shadow: 0 0 10px #f77786;
+
+}
+
+.contact {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+}
+
+
+.fa-envelope,
+.fa-github-square,
+.fa-linkedin {
+  color: #f04d60;
+  font-size: 50px;
+  text-shadow: 0 0 5px #f77786;
+  margin: 5px 0px 0px 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20px;
+  padding: 20px;
+}
+
+.fa-envelope:hover,
+.fa-github-square:hover,
+.fa-linkedin:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1)
+  }
+
+
+
+  50% {
+    transform: scale(1.3)
+  }
+
+
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+a {
+  text-decoration: none;
+
+}
